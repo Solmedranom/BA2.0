@@ -12,9 +12,12 @@ background-color: #ADF2A1;
 li{
   list-style: none;
 }
+
 a{
   color: black;
 }
+
 .img-logo{
-  width: 100px;
+  width: 100px;+
+  
 }

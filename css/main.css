@@ -47,3 +47,37 @@ main h1 {
 p{
 font-size: 15px;
 }
+
+/*ACTIVIDADES*/
+h1{
+  padding-top: 15px;
+padding-left: 15px;
+padding-bottom: 10px;
+}
+
+.act1{
+  padding: 15px;
+  width: 200px;
+  height: 100%;
+background-color: palevioletred;
+}
+.act2{
+  padding: 15px;
+  width: 200px;
+  height: 100%;
+background-color: powderblue;
+}
+
+.act3{
+  padding: 15px;
+  width: 200px;
+  height: 100%;
+background-color: palegreen;
+}
+
+.act4{
+  padding: 15px;
+  width: 200px;
+  height: 100%;
+background-color: palegoldenrod;
+}

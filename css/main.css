@@ -2,14 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: 'Inter', sans-serif;
 }
 
 /*INDEX*/
 
 .nav{
-height: 210PX;
 background-color: #adf2a1a9;
 padding: 15px;
 font-family: 'Satisfy', cursive;
@@ -23,7 +22,7 @@ a{
   color: black;
   text-decoration: none;
   font-family: 'Satisfy', cursive;
-  font-size: 20px;
+  font-size: 22px;
 
 }
 
@@ -31,16 +30,20 @@ a{
   width: 100px;
 }
 
+.img {
+  width: 400px;
+
+}
 main{
   padding: 15px;
-  background-color: antiquewhite;
   text-align: center;
 }
 
 main h1 {
   margin-bottom: 10px;
+  font-size: 45px;
 }
 
 p{
-
+font-size: 15px;
 }

@@ -6,15 +6,21 @@
   font-family: "Inter", sans-serif;
 }
 
+footer{
+  text-align: center;
+}
 /*INDEX*/
 
 header {
   text-align: center;
 }
-.nav {
+
+nav {
   background-color: #adf2a1a9;
   padding: 15px;
+  padding-right: 20px;
   font-family: "Satisfy", cursive;
+  font-size: 22px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,6 +28,7 @@ header {
 
 li {
   display: flex;
+  flex-direction: row;
   list-style: none;
 }
 
@@ -36,7 +43,7 @@ a {
   width: 100px;
 }
 
-.img {
+.img-p {
   width: 400px;
   border-top-left-radius: 25%;
   border-top-right-radius: 25%;
@@ -46,6 +53,12 @@ a {
 main {
   padding: 15px;
   text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+.texto{
+  text-align: center;
 }
 
 h1 {

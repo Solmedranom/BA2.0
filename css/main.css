@@ -30,6 +30,8 @@ li {
   display: flex;
   flex-direction: row;
   list-style: none;
+ justify-content: space-between;
+ padding-right: 30px;
 }
 
 a {
@@ -59,6 +61,7 @@ main {
 
 .texto{
   text-align: center;
+  padding-right: 30px;
 }
 
 h1 {
@@ -71,14 +74,20 @@ h1 {
 
 p {
   font-size: 15px;
+  width: 500px;
 }
 
 /*ACTIVIDADES*/
+.actividades{
+  display: flex;
+  justify-content: space-around;
+}
 
 .act1 {
   margin: 10px;
   padding: 15px;
-  width: 200px;
+  width: 250px;
+  height: 500px;
   border: 2px solid;
   border-color: palevioletred;
   background-image: url(../img/Meditacion.jpg);
@@ -90,33 +99,49 @@ p {
 .act2 {
   margin: 10px;
   padding: 15px;
-  width: 200px;
-  height: 100%;
+  width: 250px;
+    height: 500px;
   border: 2px solid;
   border-color: powderblue;
+  background-image: url(../img/Meditacion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .act3 {
   margin: 10px;
   padding: 15px;
-  width: 200px;
-  height: 100%;
+  width: 250px;
+  height: 500px;
   border: 2px solid;
   border-color: palegreen;
+  background-image: url(../img/Meditacion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .act4 {
   margin: 10px;
   padding: 15px;
-  width: 200px;
-  height: 100%;
+  width: 250px;
+  height: 500px;
   border: 2px solid;
   border-color: palegoldenrod;
+  background-image: url(../img/Meditacion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
+
 
 /*NOSOTRAS*/
 .nosotras {
   margin: 15px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
 }
 
 .img-sm {
@@ -125,13 +150,18 @@ p {
 }
 
 h2 {
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   font-size: 30px;
   padding-left: 10px;
   font-family: "Satisfy", cursive;
 }
 
+
 /*PAGINAS PERSONALES*/
+.indi{
+  display: flex;
+  justify-content: space-around;
+}
 .img-md {
   width: 300px;
   padding: 10px;
@@ -139,7 +169,19 @@ h2 {
 
 .titulo {
   font-family: "Satisfy", cursive;
+  text-align: center;
 }
+
+.info{
+  display: flex;
+  flex-direction: column;
+}
+
+.iconos{
+display: flex;
+justify-content: space-around;
+}
+
 /*CONTECTATE*/
 
 .formu {

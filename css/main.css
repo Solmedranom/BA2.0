@@ -6,9 +6,15 @@
   font-family: "Inter", sans-serif;
 }
 
-footer{
+footer {
   text-align: center;
+  font-size: 12px;
 }
+
+footer a {
+  font-size: 14px;
+}
+
 /*INDEX*/
 
 header {
@@ -50,6 +56,7 @@ a {
   border-top-left-radius: 25%;
   border-top-right-radius: 25%;
   margin: 20px;
+
 }
 
 main {
@@ -62,14 +69,16 @@ main {
 .texto{
   text-align: center;
   padding-right: 30px;
+  grid-template-areas: texto;
 }
 
 h1 {
   margin-bottom: 10px;
-  font-size: 45px;
+  font-size: 60px;
   padding-top: 15px;
   padding-left: 15px;
   padding-bottom: 10px;
+  font-family: "Satisfy", cursive;
 }
 
 p {
@@ -77,64 +86,35 @@ p {
   width: 500px;
 }
 
+/*@media (min-width: 1200px) {
+ grid-area: 
+ "imag texto";
+}*/
+
+
 /*ACTIVIDADES*/
-.actividades{
+.actividades1{  
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.actividades2{  
   display: flex;
   justify-content: space-around;
 }
 
-.act1 {
-  margin: 10px;
-  padding: 15px;
-  width: 250px;
-  height: 500px;
-  border: 2px solid;
-  border-color: palevioletred;
-  background-image: url(../img/Meditacion.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50%;
+.card-title{
+font-size: 20px;
+text-align: center;
 }
 
-.act2 {
-  margin: 10px;
-  padding: 15px;
-  width: 250px;
-    height: 500px;
-  border: 2px solid;
-  border-color: powderblue;
-  background-image: url(../img/Meditacion.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50%;
+.card-text{
+  text-align: justify;
 }
 
-.act3 {
-  margin: 10px;
-  padding: 15px;
-  width: 250px;
-  height: 500px;
-  border: 2px solid;
-  border-color: palegreen;
-  background-image: url(../img/Meditacion.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50%;
-}
-
-.act4 {
-  margin: 10px;
-  padding: 15px;
-  width: 250px;
-  height: 500px;
-  border: 2px solid;
-  border-color: palegoldenrod;
-  background-image: url(../img/Meditacion.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50%;
-}
-
+/*@media (min-width: 1200px) {
+}*/
 
 /*NOSOTRAS*/
 .nosotras {

@@ -81,7 +81,7 @@ h1 {
   font-family: "Satisfy", cursive;
 }
 
-p {
+ p {
   font-size: 15px;
   width: 500px;
 }
@@ -114,6 +114,7 @@ p {
 .card-text {
   font-size: 12px;
   text-align: justify;
+  width: auto;
 }
 
 .btn {
@@ -135,6 +136,36 @@ p {
   font-family: "Inter", sans-serif;
 }
 
+/*Actividad*/
+
+.img-lg {
+  width: 600px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.act{
+  text-align: Center;
+}
+
+.act p{
+  width: auto;
+  text-align: left;
+  padding: 20px;
+}
+
+.infor {
+text-align: justify;
+padding: 15px;
+display: flex;
+justify-content: space-around;
+gap: 50px;
+}
+
+.infor p {
+  width: auto;
+
+}
 
 /*NOSOTRAS*/
 .nosotras {
@@ -143,6 +174,7 @@ p {
   flex-direction: row;
   text-align: center;
 }
+
 
 .img-sm {
   width: 150px;

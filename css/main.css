@@ -81,6 +81,15 @@ h1 {
   font-family: "Satisfy", cursive;
 }
 
+h2 {
+  margin-bottom: 10px;
+  font-size: 60px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  font-family: "Satisfy", cursive;
+}
+
  p {
   font-size: 15px;
   width: 500px;
@@ -236,6 +245,17 @@ input {
 
 button {
   background-color: #adf2a1;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  width: 100px;
+  align-self: center;
+}
+
+button:hover {
+  background-color: #adf2a1a9;
+  border: 2px solid ;
+  border-color: #adf2a1;
   border: none;
   padding: 10px;
   font-size: 15px;

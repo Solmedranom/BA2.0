@@ -16,7 +16,6 @@ footer a {
 }
 
 /*INDEX*/
-
 header {
   text-align: center;
 }
@@ -32,6 +31,10 @@ nav {
   align-items: center;
 }
 
+.navbar-collapse{
+  padding-left: 20px;
+}
+
 li {
   display: flex;
   flex-direction: row;
@@ -41,10 +44,9 @@ li {
 }
 
 a {
-
   text-decoration: none;
   font-family: "Satisfy", cursive;
-  font-size: 22px;  
+  font-size: 22px;
   color: black;
 }
 
@@ -52,24 +54,9 @@ a {
   width: 100px;
 }
 
-.img-p {
-  width: 400px;
-  border-top-left-radius: 25%;
-  border-top-right-radius: 25%;
-  margin: 20px;
-}
-
-main {
-  padding: 15px;
-  text-align: right;
-  display: flex;
-  justify-content: space-between;
-}
-
 .texto {
   text-align: center;
   padding-right: 30px;
-  grid-template-areas: texto;
 }
 
 h1 {
@@ -90,15 +77,35 @@ h2 {
   font-family: "Satisfy", cursive;
 }
 
- p {
+p {
   font-size: 15px;
-  width: 500px;
+  width: 100%;
 }
 
-/*@media (min-width: 1200px) {
- grid-area: 
- "imag texto";
-}*/
+@media (min-width: 768px) and (max-width: 1200px) {
+  /*INDEX*/
+  .img-p {
+    width: 400px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    margin: 20px;
+    text-align: center;
+  }
+
+  main {
+    padding: 15px;
+    text-align: right;
+    display: flex;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+}
+
+@media (max-width: 600px) {
+}
 
 /*ACTIVIDADES*/
 .actividades1 {
@@ -153,27 +160,26 @@ h2 {
   text-align: center;
 }
 
-.act{
+.act {
   text-align: Center;
 }
 
-.act p{
+.act p {
   width: auto;
   text-align: left;
   padding: 20px;
 }
 
 .infor {
-text-align: justify;
-padding: 15px;
-display: flex;
-justify-content: space-around;
-gap: 50px;
+  text-align: justify;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
 }
 
 .infor p {
   width: auto;
-
 }
 
 /*NOSOTRAS*/
@@ -184,17 +190,16 @@ gap: 50px;
   text-align: center;
 }
 
-
-.img-sm {
-  width: 150px;
-  padding: 10px;
+.card{
+  border: none;
 }
 
-h2 {
-  padding-bottom: 10px;
-  font-size: 30px;
-  padding-left: 10px;
-  font-family: "Satisfy", cursive;
+.card-img-top {
+  padding: 25px;
+}
+
+.nosotras p {
+  text-align: center;
 }
 
 /*PAGINAS PERSONALES*/
@@ -254,7 +259,7 @@ button {
 
 button:hover {
   background-color: #adf2a1a9;
-  border: 2px solid ;
+  border: 2px solid;
   border-color: #adf2a1;
   border: none;
   padding: 10px;

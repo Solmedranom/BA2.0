@@ -31,7 +31,7 @@ nav {
   align-items: center;
 }
 
-.navbar-collapse{
+.navbar-collapse {
   padding-left: 20px;
 }
 
@@ -82,29 +82,57 @@ p {
   width: 100%;
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
-  /*INDEX*/
-  .img-p {
-    width: 400px;
-    border-top-left-radius: 25%;
-    border-top-right-radius: 25%;
-    margin: 20px;
-    text-align: center;
-  }
+.img-p {
+  width: 400px;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  margin: 20px;
+  text-align: center;
+}
 
-  main {
-    padding: 15px;
-    text-align: right;
-    display: flex;
-    grid-template-columns: 50% 50%;
-    justify-content: space-between;
-  }
+main {
+  padding: 15px;
+  text-align: right;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
 }
 
 @media (min-width: 600px) and (max-width: 768px) {
+  /*index*/
+  h1{
+    font-size: 40px;
+  }
+  .img-p{
+    width: 300px;
+  }
+  main{
+    display: grid;
+    grid-template-columns: 20% 45%;
+  }
 }
 
 @media (max-width: 600px) {
+   /*index*/
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+  .img-p{
+    width: 400px;
+    display: block;
+    justify-content: center;
+    padding-left: 15px;
+    margin: 20px;
+  }
+  main{
+    display: block;
+    justify-content: center;
+  }
+  /*ACTIVIDADES*/
+  h2{
+    font-size: 40px;
+  }
 }
 
 /*ACTIVIDADES*/
@@ -185,12 +213,9 @@ p {
 /*NOSOTRAS*/
 .nosotras {
   margin: 15px;
-  display: flex;
-  flex-direction: row;
-  text-align: center;
 }
 
-.card{
+.card {
   border: none;
 }
 

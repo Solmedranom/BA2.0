@@ -1,4 +1,8 @@
+let sexo;
+sexo = prompt('Ingrese su sexo. (F o M)');
 
-document.getElementById('boton1').onclick = function(){
-  alert('¡estas fuera del horario de atención!');
+if (sexo = "f"){
+  alert("¡Bienvenida!");
+}else{
+  alert("¡usted sera referido en forma femenina! ¡Bienvenida!");
 }

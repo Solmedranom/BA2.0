@@ -133,6 +133,22 @@ main {
   h2{
     font-size: 40px;
   }
+
+  .titulo {
+    font-size: 40px;
+    font-family: "Satisfy", cursive;
+    text-align: center;
+  }
+
+.img-lg {
+  width: auto;
+}
+  .infor {
+    text-align: justify;
+    padding: 15px;
+display: flex;
+flex-direction: column;
+  }
 }
 
 /*ACTIVIDADES*/

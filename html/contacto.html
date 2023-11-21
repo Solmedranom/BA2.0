@@ -51,12 +51,12 @@
 
   <form class="formu">
     <label for="nombre">Nombre</label>
-    <input id="nombre" type="text" placeholder="Nombre completo" required>
+    <input id="nombre" type="text" placeholder="Nombre completo" minlength="3" required>
     <label for="mail">Correo electronico</label>
     <input id="mail" type="mail" placeholder="Mail" required>
     <label for="mensaje">Mensaje</label>
-    <input id="mensaje" type="text" placeholder="¡Deja tu mensaje!" required>
-    <button id="boton1" type="submit">Enviar</button> <button type="reset">Resetear</button>
+    <input id="mensaje" type="text" placeholder="¡Deja tu mensaje!" minlength="10" maxlength="200" required>
+    <button onclick="alert('¡Mensaje enviado!')" type="submit">Enviar</button> <button type="reset">Resetear</button>
   </form>
 
 

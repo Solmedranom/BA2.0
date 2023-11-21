@@ -31,9 +31,6 @@ A futuro se pretende completar la web con la informacion real del centro holistc
 - [GitHub-Repository]
 - [GitHub-Deploy]
 
-## ✨Gracias a :
-
-
 [//]: # (Links utilizados)
 
    [Wireframes]: <https://www.figma.com/proto/OeXvkX0az5wMUEAXGZrB3o/Centro-holistico-RENACER?type=design&node-id=164-88&t=SPQnOQE4njCElcMp-1&scaling=min-zoom&page-id=147%3A54&mode=design>
